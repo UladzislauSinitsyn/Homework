@@ -1,0 +1,205 @@
+body{
+	 background: #e9e8e4;
+	 display: flex;
+	 flex-direction: column;
+	 font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.free_space{
+	 height: 50px;
+}
+.header{
+	 width: 60%;
+	 height: 150px;
+	 margin: 0 auto;
+	 border-radius: 10px;
+	 background: #4d75a3;
+}
+.upper{
+	 height: 50%;
+	 display: flex;
+	 align-items: center;
+	 color: #ffffff;
+}
+.lower{
+	 display: flex;
+	 height: 50%;
+	 margin: 0 auto;
+	 background: #ffffff;
+	 justify-content: center;
+	 border-radius: 0 0 10px 10px;
+}
+.upper div{
+         height: 97%;
+         align-items: center;
+         justify-content: center;
+}
+.lower div{
+         height: 100%;
+         display: flex;
+         align-items: center;
+}
+.portside{
+	 width: 35%;
+	 display: flex;
+}
+.starboard{
+	 display: flex;
+	 width: 65%;
+	 justify-content: flex-end;
+}
+.square{
+	 width: 6%;
+	 vertical-align: middle;
+	 border-right: 1px solid #41638a;
+}
+.bb{
+	 display: flex;
+ 	 border-right: 1px solid #41638a;
+}
+.gr{
+	 color: #acb6c1;
+	 vertical-align: middle;
+	 margin: 0 30px 0 30px;
+	 vertical-align: middle;
+}
+.bb:hover{
+	 background: #41638a;
+	 cursor: pointer;
+}
+.bb1:hover{
+	 background: #41638a;
+	 cursor: pointer;
+}
+.b1:hover{
+	 background: #41638a;
+	 cursor: pointer;
+}
+.b2:hover{
+	 background: #dedede;
+	 cursor: pointer;
+}
+.gr:hover{
+	 box-sizing: border-box;
+	 color: #667a90;
+	 border-bottom: 4px solid #4d75a3;
+	 cursor: pointer;
+}
+.ft:hover{
+	 cursor: pointer;	 
+}
+.pres:hover{
+	 cursor: pointer;
+	 background: #bee4fd;
+}
+.info{
+	 display: flex;
+	 width: 60%;
+	 height: 200px;
+	 background: #ffffff;
+	 margin: 0 auto;
+	 border-radius: 10px;
+	 justify-content: center; 
+	 align-items: center;
+}
+.info div{
+	 display: flex;
+         align-items: center;
+         justify-content: space-around;
+}
+.but{
+	 flex-direction: column;
+	 width: 16.1%; 
+	 height: 55%;
+}
+.bl{
+	 height: 45px;
+	 flex-direction: column;
+}
+.bbt{
+	 border: 2px solid #4d75a3;
+	 border-radius: 5px;
+	 font-family: Comic Sans MS, Comic Sans, cursive;
+	 font-size: 16px;
+}
+.medium{
+	 display: flex;
+	 width: 60%;
+	 height: 600px;
+	 margin: 0 auto;
+	 justify-content: space-between;
+}
+.activityFeed{
+	 background: #ffffff;
+	 border-radius: 10px;
+	 width: 32.6%;
+}
+.peopleToFllow{
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-between;
+	 background: #ffffff;
+	 border-radius: 10px;
+	 width: 28.3%;
+}
+.head{
+	 display: flex;
+	 padding: 0 25px 0 25px;
+	 align-items: flex-end;
+	 justify-content: space-between;
+}
+.mar{
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 align-items: center;
+	 height: 50px;
+	 margin: 25px;
+}
+.add{
+	 background: transparent;
+	 border: 1px solid #9ca8b5;
+	 border-radius: 5px;
+	 padding: 3px;
+	 width: 50px;
+	 height: 25px;
+}
+.ph2{
+	 width: 50px;
+	 height: 50px;
+	 border-radius: 50%;
+	 background: #000;
+}
+.correspondence{
+     	 background: #ffffff;
+    	 border-radius: 10px;	
+    	 width: 30.5%;
+}
+.head2{
+	 display: flex;
+	 height: 50px; 
+	 background: #4d75a3; 
+	 border-radius: 10px 10px 0 0;
+	 padding: 5px 25px 0 25px;
+	 align-items: center;
+}
+.dialogues{
+	 display: flex;
+	 flex-direction: row;
+	 width: 60%;
+	 height: 810px;
+	 margin: 0 auto;
+	 background: #ffffff;
+	 border-radius: 10px;
+}
+.ov{
+	 height: 710px;
+	 width: 100%; 
+	 overflow-y: scroll;
+}
+.ov::-webkit-scrollbar {
+  	 width: 0;
+}
+.ovmes{
+	 height: 95px;
+	 border-bottom: 1px solid #ededed;
+}
